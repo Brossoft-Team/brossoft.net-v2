@@ -8,8 +8,8 @@ const config: Config = {
     extend: {
       colors: {
         background: "#F9F5F2",
-        primarycolor: "#F7CB45",
-        secondry: "#1F1F1F",
+        primaryColor: "#F7CB45",
+        secondaryColor: "#1F1F1F",
       },
       screens: {
         sm: '567px',
