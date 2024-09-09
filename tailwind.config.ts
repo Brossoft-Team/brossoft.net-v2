@@ -6,6 +6,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        quicksand: ['Quicksand', 'sans-serif'],
+      },
       colors: {
         background: "#F9F5F2",
         primaryColor: "#F7CB45",
@@ -18,6 +21,13 @@ const config: Config = {
         xl: '1200px',
         '2xl': '1440px',
         '3xl': '1920px',
+      },
+    },
+    container: {
+      center: true,
+      padding: "2rem",
+      screens: {
+        "2xl": "1400px",
       },
     },
   },
