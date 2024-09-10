@@ -2,3 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+  @media screen and (min-width: 1920px) {
+    .container {
+        max-width: 1400px !important;
+    }
+}
+
+.container {
+    max-width: 1280px;
+}
