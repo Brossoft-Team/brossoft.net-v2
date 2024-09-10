@@ -13,7 +13,10 @@ const Banner: React.FC = () => {
                 </div>
                 <Image src="/assets/brossoft_transparent.svg" alt="Banner image" width={400} height={400} />
             </div>
-            <Button label='label' className='relative left-0'/>
+            <div className="container mt-8">
+                <Button label='Start your journey' className='relative left-0'/>
+            </div>
+            
         </div>
     );
 };
