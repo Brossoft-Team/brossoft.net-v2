@@ -16,6 +16,7 @@ const config: Config = {
         secondaryColor: "#1F1F1F",
         textColor: "#282825",
         textSecondaryColor: "#52514e",
+        secondaryText: '#your-color-here', // Replace with your desired color
       },
       screens: {
         sm: '567px',
@@ -29,9 +30,6 @@ const config: Config = {
     container: {
       center: true,
       padding: "1rem",
-      screens: {
-        "xl": "1200px",
-      },
     },
   },
   plugins: [],
