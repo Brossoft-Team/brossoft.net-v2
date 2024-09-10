@@ -13,6 +13,8 @@ const config: Config = {
         background: "#F9F5F2",
         primaryColor: "#F7CB45",
         secondaryColor: "#1F1F1F",
+        textColor: "#282825",
+        textSecondaryColor: "#52514e",
       },
       screens: {
         sm: '567px',

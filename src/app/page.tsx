@@ -1,15 +1,13 @@
 import React from 'react';
 import Header from '../components/layout/header/Header';
 import '../app/globals.css';
+import Banner from '../components/layout/banner/Banner'
 
-export default function Homepage(): JSX.Element {
+export default function Home(): JSX.Element {
     return (
-        <div className="min-h-screen text-foreground">
+        <div className="">
             
-            <main className="p-4">
-                <h2>Welcome to the Homepage</h2>
-                <p>This is the main content of the homepage.</p>
-            </main>
+        <Banner />
         </div>
     );
 };
