@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 
 
-const Footer = () => {
+const Footer: React.FC = () => {
     
     return(
         <footer className="flex justify-between items-center py-14 px-40 mx-auto border-[1px] border-t-black border-solid">
