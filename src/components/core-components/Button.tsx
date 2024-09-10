@@ -1,12 +1,8 @@
 import React from 'react';
 import { cn } from "@/lib/utils";
 
-interface ButtonProps {
+interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
     label: string;
-    onClick?: () => void;
-    type?: 'button' | 'submit' | 'reset';
-    disabled?: boolean;
-    className?: string;
 }
 
 const Button: React.FC<ButtonProps> = ({ label, onClick, type = 'button', className = '' }) => {

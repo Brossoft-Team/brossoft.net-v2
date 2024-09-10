@@ -29,7 +29,7 @@ const config: Config = {
       center: true,
       padding: "1rem",
       screens: {
-        "2xl": "1400px",
+        "xl": "1200px",
       },
     },
   },
