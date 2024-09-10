@@ -8,6 +8,7 @@ const config: Config = {
     extend: {
       fontFamily: {
         quicksand: ['Quicksand', 'sans-serif'],
+        poppins: ['Poppins', 'sans-serif'],
       },
       colors: {
         background: "#F9F5F2",
