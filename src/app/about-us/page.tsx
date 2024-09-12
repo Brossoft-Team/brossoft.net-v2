@@ -2,6 +2,7 @@ import React from 'react';
 import { cn } from "@/lib/utils";
 import Button from '@/components/core-components/Button';
 import Image from 'next/image';
+import Tag from '@/components/core-components/Tag';
 
 
 const AboutUs = () => {
@@ -13,6 +14,7 @@ const AboutUs = () => {
 
       <section className="w-1/2 mx-40 space-y-7 ">
   <Button className="block" label="About Us" />
+
   <p className="text-justify leading-relaxed w-full font-poppins font-medium">
     I wasn’t always a designer. Previously, I worked for large tech companies as a marketing manager.
 
