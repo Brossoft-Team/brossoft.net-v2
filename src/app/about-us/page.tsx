@@ -2,6 +2,7 @@ import React from 'react';
 import { cn } from "@/lib/utils";
 import Button from '@/components/core-components/Button';
 import Image from 'next/image';
+import SocialIcons from '@/components/layout/social/Social';
 
 
 
@@ -14,6 +15,7 @@ const AboutUs = () => {
 
       <section className="w-1/2 mx-40 space-y-7 ">
   <Button className="block" label="About Us" />
+ <SocialIcons/>
   
 
   <p className="text-justify leading-relaxed w-full font-poppins font-medium">
