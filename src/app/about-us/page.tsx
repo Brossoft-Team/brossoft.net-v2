@@ -15,7 +15,7 @@ const AboutUs = () => {
 
       <section className="w-1/2 mx-40 space-y-7 ">
   <Button className="block" label="About Us" />
-
+ 
   
 
   <p className="text-justify leading-relaxed w-full font-poppins font-medium">
