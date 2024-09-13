@@ -7,18 +7,16 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
 
 const NavButton: React.FC<ButtonProps> = ({
   label,
-  onClick,
-  type = "button",
   className = "",
+  ...props
 }) => {
   return (
     <button
-      type={type}
-      onClick={onClick}
       className={cn(
-        "flex items-center text-textColor font-bold py-1 px-8 h-14   hover:text-slate-500 transition-all",
+        "flex items-center text-textColor font-bold py-1 px-8 h-14 hover:text-slate-500 transition-all",
         className
       )}
+      {...props}
     >
       <span className="mr-2">{label}</span>
       <svg
