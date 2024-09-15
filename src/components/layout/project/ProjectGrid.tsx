@@ -1,4 +1,5 @@
 
+/*
 import React from "react";
 import ProjectCard from "./ProjectCard";
 
@@ -29,3 +30,4 @@ const ProjectsGrid: React.FC<ProjectsGridProps> = ({ projects }) => {
 };
 
 export default ProjectsGrid;
+*/
