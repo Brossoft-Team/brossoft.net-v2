@@ -9,8 +9,8 @@ const AllProjectsPage = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {projects.map((project) => (
           <ProjectCard
-            key={project.id} // React optimizasyonu için 'key' gereklidir.
-            id={project.id} // Bu şekilde 'id' propunu ekleyelim.
+            key={project.id}
+            id={project.id} 
             title={project.title}
             description={project.description}
             image={project.image}
