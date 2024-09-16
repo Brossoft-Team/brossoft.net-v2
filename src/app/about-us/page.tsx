@@ -2,8 +2,7 @@ import React from "react";
 import { cn } from "@/lib/utils";
 import Button from "@/components/core-components/Button";
 import Image from "next/image";
-import SocialIcons from "@/components/layout/social/Social";
-import NavButton from "@/components/layout/navigation-button/Navigation";
+
 
 const AboutUs = () => {
   return (
