@@ -4,7 +4,6 @@ import Button from "@/components/core-components/Button";
 import Image from "next/image";
 import SocialIcons from "@/components/layout/social/Social";
 import NavButton from "@/components/layout/navigation-button/Navigation";
-import ProfileCard from "@/components/layout/profile-card/ProfileCard";
 
 const AboutUs = () => {
   return (
@@ -12,8 +11,6 @@ const AboutUs = () => {
       <div className="flex flex-col md:flex-row justify-between  items-center  w-full    ">
         <section className="w-1/2 mx-40 space-y-7 ">
           <Button className="block" label="About Us" />
-         
-    
 
           <p className="text-justify leading-relaxed w-full font-poppins font-medium">
             I wasn’t always a designer. Previously, I worked for large tech
